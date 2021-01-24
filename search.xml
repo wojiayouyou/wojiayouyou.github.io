@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title></title>
+      <link href="2021/01/24/%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0/"/>
+      <url>2021/01/24/%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="常见函数"><a href="#常见函数" class="headerlink" title="常见函数"></a>常见函数</h1><h3 id="重点函数"><a href="#重点函数" class="headerlink" title="重点函数"></a>重点函数</h3><ul><li>sorted(lst， ascending)</li><li>range(start, end, step)</li><li>enumerate(lst)</li><li>eval(expression)</li><li>zip(lst1, lst2..)</li><li>map(func, lst)</li><li>print(x)</li><li>open(file, encoding)</li></ul><h3 id="数学相关"><a href="#数学相关" class="headerlink" title="数学相关"></a>数学相关</h3><table><thead><tr><th>函数</th><th>功能</th><th>例子</th><th>运行结果</th></tr></thead><tbody><tr><td>abs(a)</td><td>对a取绝对值</td><td>abs(-1)</td><td>1</td></tr><tr><td>max(lst)、min(lst)</td><td>寻找lst中的最大、最小值</td><td>max([3, 2, 9])</td><td>9</td></tr><tr><td>sum(lst)</td><td>对lst内所有数字求和</td><td>sum([3, 2, 9])</td><td>14</td></tr><tr><td>==sorted(lst， ascending)==</td><td>对lst排序； 参数ascending为布尔值控制升降序</td><td>sorted([3, 2, 9])</td><td>[2, 3, 9]</td></tr><tr><td>==range(start, end, step)==</td><td>以步长step，生成从start到end的数列,默认step=1，结果取不到end</td><td>list(range(1,5))</td><td>[1, 2, 3,4]</td></tr></tbody></table><h3 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h3><table><thead><tr><th>函数</th><th>功能</th><th>例子</th><th>运行结果</th></tr></thead><tbody><tr><td>int(string)</td><td>将字符串数改为整数型</td><td>int(‘9’)</td><td>9</td></tr><tr><td>float(int/str)</td><td>将int或str改为浮点型</td><td>float(9)、float(‘9’)</td><td>9.0</td></tr><tr><td>list(iterable)</td><td>将可迭代对象为列表。这里的iterable可以为字符串，可以是列表</td><td>list(‘abc’)</td><td>[‘a’, ‘b’, ‘c’]</td></tr><tr><td>==enumerate(lst)==</td><td>返回带有索引值的序列seq.==需要list(seq)处理后才能看到seq==</td><td>list(enumerate([‘a’, ‘b’, ‘c’]))</td><td>[(0,’a’), (1, ‘b’), (2, ‘c’)]</td></tr><tr><td>tuple(lst)</td><td>将lst变为tuple</td><td>tuple([1,2,3])</td><td>(1,2,3)</td></tr><tr><td>set(lst)</td><td>将lst变为集合</td><td>set([1,4,4,4,3])</td><td>{1,3,4}</td></tr></tbody></table><h3 id="功能函数"><a href="#功能函数" class="headerlink" title="功能函数"></a>功能函数</h3><table><thead><tr><th>函数</th><th>功能</th><th>例子</th><th>运行结果</th></tr></thead><tbody><tr><td>==eval(expression)==</td><td>执行一个表达式</td><td>eval(‘1+1’)</td><td>2</td></tr><tr><td>==zip(lst1,lst2…)==</td><td>将lst1,lst2…合并,返回zip对象。==需要list处理一下zip对象==</td><td>list(zip([1,2,3],[4,5,6]))</td><td>[(1, 4), (2, 5), (3, 6)]</td></tr><tr><td>==type(x)==</td><td>查看X的类型</td><td>type(‘2’)</td><td>&lt;class ‘str’&gt;</td></tr><tr><td>help(x)</td><td>查看X的相关信息</td><td>help([1, 2])</td><td>Help on list object..</td></tr><tr><td>==map(func, lst)==</td><td>对lst中的每一个个体都进行func操作</td><td>list(map(sum, [[1,1], [1,2]]))</td><td>[2, 3]</td></tr><tr><td>==print(x)==</td><td>打印x</td><td>print(‘abc’)</td><td>Abc</td></tr><tr><td>==open(file， encoding)==</td><td>打开file文件， encoding是file的文件编码</td><td></td><td></td></tr></tbody></table>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="2021/01/24/%E7%82%B9%E5%AD%90/"/>
+      <url>2021/01/24/%E7%82%B9%E5%AD%90/</url>
+      
+        <content type="html"><![CDATA[<h1 id="点子"><a href="#点子" class="headerlink" title="点子"></a>点子</h1><p>生鲜电商行业</p><p>有仓库 重资产 没有实现盈利  （可以举反例）</p><p>冷链仓储物流成本高</p><p>高库存和高货损率</p><p>社区团购可以让平台用户团长供应商一起承担风险</p><p>预售模式（供需对接）</p><p>以销定采（订单找货而不是货等订单）</p><p>集采集配（一个车次搞定多个小区的订单，省去了传统模式中一点对多点的最后一公里问题）</p><p>次日自提</p><p>不用门店和前置仓 有几个中心仓就行</p><p>批发价（下沉市场！！！！！）</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="2021/01/24/%E8%AF%BB%E5%BC%A0%E4%BA%94%E5%B8%B8%E7%BB%8F%E6%B5%8E%E8%A7%A3%E9%87%8A%E6%9C%89%E6%84%9F/"/>
+      <url>2021/01/24/%E8%AF%BB%E5%BC%A0%E4%BA%94%E5%B8%B8%E7%BB%8F%E6%B5%8E%E8%A7%A3%E9%87%8A%E6%9C%89%E6%84%9F/</url>
+      
+        <content type="html"><![CDATA[<h1 id="读张五常经济解释有感"><a href="#读张五常经济解释有感" class="headerlink" title="读张五常经济解释有感"></a>读张五常经济解释有感</h1><h2 id="科学的方法"><a href="#科学的方法" class="headerlink" title="科学的方法"></a>科学的方法</h2><ol><li>科学不是求对，也不是求错；科学所求的是“可能被事实推翻而没有被推翻，就算是被证实了。”</li><li><font color='red'>科学与美学是可以互相兼容的</font></li><li><font color='orange'>科学的形成是基于三个重要的信念。第一：凡是现象或者行为，其存在是靠主观的判断，大家不能在主观上有分歧（也就是公理，为大家所共同认可）第二所有现象皆有，所有规律皆有迹可循，第三任何事情的发生都不会是无缘无故的（即万事万物皆有联系）</font></li><li>解释现象要涉及到抽象思维的应用，事实的规律不能不言自明，用事实解释事实。（一个结论与条件，可以正着推成立，但是反过来由结论推条件则不一定成立，还涉及到逆否命题，欲证明一个命题成立可以证明其逆否命题成立）（两个事实只是事实没有发现规律是不好的，要用理论来解释事实）</li><li><font color='yellow'>凡是有解释能力的理论，一定要有被事实推翻的可能，但却没有被推翻。</font></li><li><font color='yellow'>被事实所推翻的理论是可以通过加上约束条件来进行挽回的，只不过需要判断其代价</font></li><li><font color='yellow'>一个理论若是过于特殊则没有了推而广之的意义，同理一个理论若是过于宽泛则又没有了其内容，不具有解释力。</font></li><li>套套逻辑有极大的一般性，假若将其范围加以约束，可以促成一个有内容的理论。IS——LM曲线 蒙代尔弗莱明模型</li><li><font color='green'>实证科学的主旨是要创立一些可能被事实推翻的句子或言论来做推测的</font></li><li>推翻一个理论最好的方法是从其逆否命题来出发，若A可以推出B，同理没有B则没有A。若是没有B而有了A则该假说就被事实所推翻了。（逻辑学）</li><li><font color='cornflowerblue'>模糊不清的思想，是永远也不能清楚证明是错的（日本天皇的“暧昧”语法）</font></li><li><font color='cornflowerblue'>理论需要清晰：有雨必有云，可能错（但是从来没错），但是倘若不知何谓云，何谓雨，就不能说对与错了。也就是定义需要明晰</font></li><li><font color='cyan'>不能互相矛盾（也许我应该读一些逻辑学方面的书籍）</font></li><li><font color='cyan'>非事实：解释的理论一定要是有基础的也就是说要是大家所公认的事实或者有明确定义的事物</font></li><li><font color='cyan'>有解释力的理论往往起源于抽象的思想，以某些非事实的假设入手，然后经过逻辑的推理，引申出可以被验证的含义</font></li><li>抽象思维，简化思维我称之为概括总结从而得出一般性的结论，理论是非真实的，但是非真实不代表没有解释力</li><li>给条件加上的局限条件一定要是在现实生活中是有依据的，不能空穴来风</li></ol><h2 id="从自私说起"><a href="#从自私说起" class="headerlink" title="从自私说起"></a>从自私说起</h2><ol><li>经济分析的基本单位是个人</li><li>增加约束条件避免走入套套逻辑的误区（能够针对某种情况对人的行为做出预测）</li><li>每个人的任何行为都是自私自利的（局限之下，争取个人利益极大化）</li></ol><h2 id="缺乏与竞争"><a href="#缺乏与竞争" class="headerlink" title="缺乏与竞争"></a>缺乏与竞争</h2><ol><li>物品的定义是：有胜于无，即有这个东西比没有这个东西要来的好。这里包括有形商品和无形商品。</li><li>物品还可以分为经济物品和免费物品，经济物品是多胜于少的，越多越好。免费物品更倾向于有胜于无。</li><li><font color='cornflowerblue'>一种物品多胜于少，人们要争取多一点，那么他们一定愿意多付出一点代价，不愿意付出任何代价来争取多一点，不能算是多胜于少。<font color='cyan'>因此凡是有人愿意付出或多少的代价来争取多一点的物品，都是缺乏的，那就是经济物品。</font></font></li><li><font color='purple'>凡是有价格的物品都是缺乏的</font>（个人理解：经济物品的获得往往是要付出代价的，也往往是需要竞争的）</li><li><font color='cornflowerblue'>产权制度是竞争的游戏规则</font></li><li>准则决定社会经济行为（行为跟着准则走，引导作用）</li><li>因为竞争准则的不同，获胜的也不同，这就是说不同的人适合不同的竞争条件。或者说不同的竞争准则所适用的情况也是不同的。</li><li>只有达到最优组合的竞争条件才是没有浪费的，合适的竞争条件不能够扭曲市场</li><li>为什么会导致这个问题是属于经济学的分析，而这个问题会怎么样，有什么样的影响则是伦理学或者说是主观的价值判断的问题</li><li>经济学与经济学者是两个概念</li><li><font color='green'>经济学的范畴：</font>a. 在知道有关游戏规则的条件之下可以去研究所用的竞争准则是什么。同时还要注意对局限条件的简化，但是简化就意味着抽象和取舍，而其取舍需要约束，约束需要理论。（竞争准则是判定输赢的条件）    b. 有了准则就可以推断人的行为资源的使用和财富的分配  c.解释该游戏规则是怎样形成的，竞争准则又是如何决定的</li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="2021/01/24/hello-world/"/>
+      <url>2021/01/24/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
