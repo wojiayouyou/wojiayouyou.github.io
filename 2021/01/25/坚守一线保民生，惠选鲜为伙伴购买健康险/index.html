@@ -444,7 +444,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-01-24
+                    2021-01-25
                 </div>
                 
 
@@ -453,7 +453,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    436
+                    222
                 </div>
                 
 
@@ -470,154 +470,10 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="常见函数"><a href="#常见函数" class="headerlink" title="常见函数"></a>常见函数</h1><h3 id="重点函数"><a href="#重点函数" class="headerlink" title="重点函数"></a>重点函数</h3><ul>
-<li>sorted(lst， ascending)</li>
-<li>range(start, end, step)</li>
-<li>enumerate(lst)</li>
-<li>eval(expression)</li>
-<li>zip(lst1, lst2..)</li>
-<li>map(func, lst)</li>
-<li>print(x)</li>
-<li>open(file, encoding)</li>
-</ul>
-<h3 id="数学相关"><a href="#数学相关" class="headerlink" title="数学相关"></a>数学相关</h3><table>
-<thead>
-<tr>
-<th>函数</th>
-<th>功能</th>
-<th>例子</th>
-<th>运行结果</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>abs(a)</td>
-<td>对a取绝对值</td>
-<td>abs(-1)</td>
-<td>1</td>
-</tr>
-<tr>
-<td>max(lst)、min(lst)</td>
-<td>寻找lst中的最大、最小值</td>
-<td>max([3, 2, 9])</td>
-<td>9</td>
-</tr>
-<tr>
-<td>sum(lst)</td>
-<td>对lst内所有数字求和</td>
-<td>sum([3, 2, 9])</td>
-<td>14</td>
-</tr>
-<tr>
-<td>==sorted(lst， ascending)==</td>
-<td>对lst排序； 参数ascending为布尔值控制升降序</td>
-<td>sorted([3, 2, 9])</td>
-<td>[2, 3, 9]</td>
-</tr>
-<tr>
-<td>==range(start, end, step)==</td>
-<td>以步长step，生成从start到end的数列,默认step=1，结果取不到end</td>
-<td>list(range(1,5))</td>
-<td>[1, 2, 3,4]</td>
-</tr>
-</tbody></table>
-<h3 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h3><table>
-<thead>
-<tr>
-<th>函数</th>
-<th>功能</th>
-<th>例子</th>
-<th>运行结果</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>int(string)</td>
-<td>将字符串数改为整数型</td>
-<td>int(‘9’)</td>
-<td>9</td>
-</tr>
-<tr>
-<td>float(int/str)</td>
-<td>将int或str改为浮点型</td>
-<td>float(9)、float(‘9’)</td>
-<td>9.0</td>
-</tr>
-<tr>
-<td>list(iterable)</td>
-<td>将可迭代对象为列表。这里的iterable可以为字符串，可以是列表</td>
-<td>list(‘abc’)</td>
-<td>[‘a’, ‘b’, ‘c’]</td>
-</tr>
-<tr>
-<td>==enumerate(lst)==</td>
-<td>返回带有索引值的序列seq.==需要list(seq)处理后才能看到seq==</td>
-<td>list(enumerate([‘a’, ‘b’, ‘c’]))</td>
-<td>[(0,’a’), (1, ‘b’), (2, ‘c’)]</td>
-</tr>
-<tr>
-<td>tuple(lst)</td>
-<td>将lst变为tuple</td>
-<td>tuple([1,2,3])</td>
-<td>(1,2,3)</td>
-</tr>
-<tr>
-<td>set(lst)</td>
-<td>将lst变为集合</td>
-<td>set([1,4,4,4,3])</td>
-<td>{1,3,4}</td>
-</tr>
-</tbody></table>
-<h3 id="功能函数"><a href="#功能函数" class="headerlink" title="功能函数"></a>功能函数</h3><table>
-<thead>
-<tr>
-<th>函数</th>
-<th>功能</th>
-<th>例子</th>
-<th>运行结果</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>==eval(expression)==</td>
-<td>执行一个表达式</td>
-<td>eval(‘1+1’)</td>
-<td>2</td>
-</tr>
-<tr>
-<td>==zip(lst1,lst2…)==</td>
-<td>将lst1,lst2…合并,返回zip对象。==需要list处理一下zip对象==</td>
-<td>list(zip([1,2,3],[4,5,6]))</td>
-<td>[(1, 4), (2, 5), (3, 6)]</td>
-</tr>
-<tr>
-<td>==type(x)==</td>
-<td>查看X的类型</td>
-<td>type(‘2’)</td>
-<td>&lt;class ‘str’&gt;</td>
-</tr>
-<tr>
-<td>help(x)</td>
-<td>查看X的相关信息</td>
-<td>help([1, 2])</td>
-<td>Help on list object..</td>
-</tr>
-<tr>
-<td>==map(func, lst)==</td>
-<td>对lst中的每一个个体都进行func操作</td>
-<td>list(map(sum, [[1,1], [1,2]]))</td>
-<td>[2, 3]</td>
-</tr>
-<tr>
-<td>==print(x)==</td>
-<td>打印x</td>
-<td>print(‘abc’)</td>
-<td>Abc</td>
-</tr>
-<tr>
-<td>==open(file， encoding)==</td>
-<td>打开file文件， encoding是file的文件编码</td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
+                <p>title: 坚守一线保民生，惠选鲜为伙伴购买健康险</p>
+<h1 id="坚守一线保民生，惠选鲜为伙伴购买健康险"><a href="#坚守一线保民生，惠选鲜为伙伴购买健康险" class="headerlink" title="坚守一线保民生，惠选鲜为伙伴购买健康险"></a>坚守一线保民生，惠选鲜为伙伴购买健康险</h1><p>在抗击疫情期间，老百姓的需求指数不断攀升，惠选鲜全力以赴，保民生、保供应、稳价格，尽最大努力保障业务的正常运转，为缓解消费者购物压力、控制疫情蔓延做出了积极贡献。</p>
+<p>为了切实保障一线伙伴的健康与安全，除了做好测体温、戴口罩、勤消毒等日常的防疫工作外，惠选鲜还与阳光保险合作，为坚守在一线的伙伴购买了针对新型冠状病毒肺炎开发的健康保险</p>
+<p>疫情就是命令，惠选鲜将继续冲在抗击疫情的第一线，竭尽所能为广大居民提供安全</p>
 
                 
             </div>
@@ -644,7 +500,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://wojiayouyou.github.io/2021/01/24/%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0/">https://wojiayouyou.github.io/2021/01/24/%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0/</a>
+                    <a href="https://wojiayouyou.github.io/2021/01/25/%E5%9D%9A%E5%AE%88%E4%B8%80%E7%BA%BF%E4%BF%9D%E6%B0%91%E7%94%9F%EF%BC%8C%E6%83%A0%E9%80%89%E9%B2%9C%E4%B8%BA%E4%BC%99%E4%BC%B4%E8%B4%AD%E4%B9%B0%E5%81%A5%E5%BA%B7%E9%99%A9/">https://wojiayouyou.github.io/2021/01/25/%E5%9D%9A%E5%AE%88%E4%B8%80%E7%BA%BF%E4%BF%9D%E6%B0%91%E7%94%9F%EF%BC%8C%E6%83%A0%E9%80%89%E9%B2%9C%E4%B8%BA%E4%BC%99%E4%BC%B4%E8%B4%AD%E4%B9%B0%E5%81%A5%E5%BA%B7%E9%99%A9/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1118,7 +974,7 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/01/25/%E5%A4%9A%E4%B8%BE%E6%8E%AA%E5%BA%94%E5%AF%B9%E7%96%AB%E6%83%85%20%E4%BF%9D%E9%9A%9C%E5%95%86%E5%93%81%E5%93%81%E8%B4%A8%E5%92%8C%E7%94%A8/">
+                <a href="/2021/01/25/%E5%85%B1%E5%90%8C%E6%88%98%E2%80%9C%E7%96%AB%E2%80%9D%EF%BC%8C%E6%83%A0%E9%80%89%E9%B2%9C%E5%B8%AE%E5%8A%A9%E6%BB%9E%E9%94%80/">
                     <div class="card-image">
                         
                         
@@ -1155,7 +1011,7 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/01/24/%E7%82%B9%E5%AD%90/">
+                <a href="/2021/01/25/%E5%A4%9A%E4%B8%BE%E6%8E%AA%E5%BA%94%E5%AF%B9%E7%96%AB%E6%83%85%20%E4%BF%9D%E9%9A%9C%E5%95%86%E5%93%81%E5%93%81%E8%B4%A8%E5%92%8C%E7%94%A8/">
                     <div class="card-image">
                         
                         
@@ -1172,7 +1028,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-24
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-25
                             </span>
                         <span class="publish-author">
                             
