@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>惠选鲜</title>
+  <title>益生甄选</title>
   
   <subtitle>[object Object]</subtitle>
   <link href="https://wojiayouyou.github.io/atom.xml" rel="self"/>
   
   <link href="https://wojiayouyou.github.io/"/>
-  <updated>2021-01-25T03:09:51.358Z</updated>
+  <updated>2021-03-31T11:27:18.901Z</updated>
   <id>https://wojiayouyou.github.io/</id>
   
   <author>
@@ -18,10 +18,77 @@
   
   <entry>
     <title></title>
+    <link href="https://wojiayouyou.github.io/2021/03/31/title%E4%B8%8A%E6%96%B0/"/>
+    <id>https://wojiayouyou.github.io/2021/03/31/title%E4%B8%8A%E6%96%B0/</id>
+    <published>2021-03-31T11:28:49.271Z</published>
+    <updated>2021-03-31T11:27:18.901Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;title:上新&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=869410396,3355379233&amp;fm=26&amp;gp=0.jpg&quot; alt=&quot;img&quot;&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wojiayouyou.github.io/2021/03/31/title%E4%BF%9D%E5%AF%86%E9%A1%BB%E7%9F%A5/"/>
+    <id>https://wojiayouyou.github.io/2021/03/31/title%E4%BF%9D%E5%AF%86%E9%A1%BB%E7%9F%A5/</id>
+    <published>2021-03-31T11:28:47.683Z</published>
+    <updated>2021-03-31T11:25:03.741Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;title:保密须知&lt;/p&gt;
+&lt;p&gt;保密须知&lt;/p&gt;
+&lt;p&gt;本商业计划书属商业机密，所有权属于“益生甄选”APP。其所涉及的内容和资料只限于已签署投资意向的投资者使用。收到本计划书后，收件人应即刻确认，并遵守以下规定：</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://wojiayouyou.github.io/2021/03/31/title%E6%A0%B8%E5%BF%83%E4%B8%9A%E5%8A%A1%E5%92%8C%E8%BE%85%E8%90%A5%E4%B8%9A%E5%8A%A1/"/>
+    <id>https://wojiayouyou.github.io/2021/03/31/title%E6%A0%B8%E5%BF%83%E4%B8%9A%E5%8A%A1%E5%92%8C%E8%BE%85%E8%90%A5%E4%B8%9A%E5%8A%A1/</id>
+    <published>2021-03-31T11:23:43.055Z</published>
+    <updated>2021-03-31T11:23:27.942Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;title:核心业务和辅营业务&lt;/p&gt;
+&lt;p&gt;核心业务：积极发挥电商在抗疫中的作用，利用社区团购的及时物流体系和大数据优势，在帮助农户走出疫情滞销困境的同时，为社区居民减少外出购物的风险，减少人流密集度，为其提供安全且可靠的产品，对于社会弱势群体，我们会提供更人性化的服务，</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
     <link href="https://wojiayouyou.github.io/2021/01/25/%E5%85%AC%E5%8F%B8%E7%AE%80%E4%BB%8B/"/>
     <id>https://wojiayouyou.github.io/2021/01/25/%E5%85%AC%E5%8F%B8%E7%AE%80%E4%BB%8B/</id>
     <published>2021-01-25T08:26:49.180Z</published>
-    <updated>2021-01-25T03:09:51.358Z</updated>
+    <updated>2021-03-31T11:21:06.507Z</updated>
     
     
       
@@ -39,18 +106,18 @@
   
   <entry>
     <title></title>
-    <link href="https://wojiayouyou.github.io/2021/01/25/%E5%85%B1%E5%90%8C%E6%88%98%E2%80%9C%E7%96%AB%E2%80%9D%EF%BC%8C%E6%83%A0%E9%80%89%E9%B2%9C%E5%B8%AE%E5%8A%A9%E6%BB%9E%E9%94%80/"/>
-    <id>https://wojiayouyou.github.io/2021/01/25/%E5%85%B1%E5%90%8C%E6%88%98%E2%80%9C%E7%96%AB%E2%80%9D%EF%BC%8C%E6%83%A0%E9%80%89%E9%B2%9C%E5%B8%AE%E5%8A%A9%E6%BB%9E%E9%94%80/</id>
+    <link href="https://wojiayouyou.github.io/2021/01/25/%E5%85%B1%E5%90%8C%E6%88%98%E2%80%9C%E7%96%AB%E2%80%9D%EF%BC%8C%E7%9B%8A%E7%94%9F%E7%94%84%E9%80%89%E5%B8%AE%E5%8A%A9%E6%BB%9E%E9%94%80/"/>
+    <id>https://wojiayouyou.github.io/2021/01/25/%E5%85%B1%E5%90%8C%E6%88%98%E2%80%9C%E7%96%AB%E2%80%9D%EF%BC%8C%E7%9B%8A%E7%94%9F%E7%94%84%E9%80%89%E5%B8%AE%E5%8A%A9%E6%BB%9E%E9%94%80/</id>
     <published>2021-01-25T08:26:44.985Z</published>
-    <updated>2021-01-25T03:24:13.180Z</updated>
+    <updated>2021-03-31T11:20:51.315Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;title: 共同战“疫”，惠选鲜帮助滞销&lt;/p&gt;
-&lt;h1 id=&quot;共同战“疫”，惠选鲜帮助滞销&quot;&gt;&lt;a href=&quot;#共同战“疫”，惠选鲜帮助滞销&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;p&gt;title: 共同战“疫”，益生甄选帮助滞销&lt;/p&gt;
+&lt;h1 id=&quot;共同战“疫”，益生甄选帮助滞销&quot;&gt;&lt;a href=&quot;#共同战“疫”，益生甄选帮助滞销&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -61,18 +128,18 @@
   
   <entry>
     <title></title>
-    <link href="https://wojiayouyou.github.io/2021/01/25/%E5%9D%9A%E5%AE%88%E4%B8%80%E7%BA%BF%E4%BF%9D%E6%B0%91%E7%94%9F%EF%BC%8C%E6%83%A0%E9%80%89%E9%B2%9C%E4%B8%BA%E4%BC%99%E4%BC%B4%E8%B4%AD%E4%B9%B0%E5%81%A5%E5%BA%B7%E9%99%A9/"/>
-    <id>https://wojiayouyou.github.io/2021/01/25/%E5%9D%9A%E5%AE%88%E4%B8%80%E7%BA%BF%E4%BF%9D%E6%B0%91%E7%94%9F%EF%BC%8C%E6%83%A0%E9%80%89%E9%B2%9C%E4%B8%BA%E4%BC%99%E4%BC%B4%E8%B4%AD%E4%B9%B0%E5%81%A5%E5%BA%B7%E9%99%A9/</id>
+    <link href="https://wojiayouyou.github.io/2021/01/25/%E5%9D%9A%E5%AE%88%E4%B8%80%E7%BA%BF%E4%BF%9D%E6%B0%91%E7%94%9F%EF%BC%8C%E7%9B%8A%E7%94%9F%E7%94%84%E9%80%89%E4%B8%BA%E4%BC%99%E4%BC%B4%E8%B4%AD%E4%B9%B0%E5%81%A5%E5%BA%B7%E9%99%A9/"/>
+    <id>https://wojiayouyou.github.io/2021/01/25/%E5%9D%9A%E5%AE%88%E4%B8%80%E7%BA%BF%E4%BF%9D%E6%B0%91%E7%94%9F%EF%BC%8C%E7%9B%8A%E7%94%9F%E7%94%84%E9%80%89%E4%B8%BA%E4%BC%99%E4%BC%B4%E8%B4%AD%E4%B9%B0%E5%81%A5%E5%BA%B7%E9%99%A9/</id>
     <published>2021-01-25T08:26:42.027Z</published>
-    <updated>2021-01-25T03:26:58.127Z</updated>
+    <updated>2021-03-31T11:20:26.538Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;title: 坚守一线保民生，惠选鲜为伙伴购买健康险&lt;/p&gt;
-&lt;h1 id=&quot;坚守一线保民生，惠选鲜为伙伴购买健康险&quot;&gt;&lt;a href=&quot;#坚守一线保民生，惠选鲜为伙伴购买健康险&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;p&gt;title: 坚守一线保民生，益生甄选为伙伴购买健康险&lt;/p&gt;
+&lt;h1 id=&quot;坚守一线保民生，益生甄选为伙伴购买健康险&quot;&gt;&lt;a href=&quot;#坚守一线保民生，益生甄选为伙伴购买健康险&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -86,7 +153,7 @@
     <link href="https://wojiayouyou.github.io/2021/01/25/%E5%A4%9A%E4%B8%BE%E6%8E%AA%E5%BA%94%E5%AF%B9%E7%96%AB%E6%83%85%20%E4%BF%9D%E9%9A%9C%E5%95%86%E5%93%81%E5%93%81%E8%B4%A8%E5%92%8C%E7%94%A8/"/>
     <id>https://wojiayouyou.github.io/2021/01/25/%E5%A4%9A%E4%B8%BE%E6%8E%AA%E5%BA%94%E5%AF%B9%E7%96%AB%E6%83%85%20%E4%BF%9D%E9%9A%9C%E5%95%86%E5%93%81%E5%93%81%E8%B4%A8%E5%92%8C%E7%94%A8/</id>
     <published>2021-01-25T08:26:38.801Z</published>
-    <updated>2021-01-25T03:30:32.013Z</updated>
+    <updated>2021-03-31T11:21:38.496Z</updated>
     
     
       
@@ -138,27 +205,6 @@
         
     <summary type="html">&lt;h1 id=&quot;点子&quot;&gt;&lt;a href=&quot;#点子&quot; class=&quot;headerlink&quot; title=&quot;点子&quot;&gt;&lt;/a&gt;点子&lt;/h1&gt;&lt;p&gt;生鲜电商行业&lt;/p&gt;
 &lt;p&gt;有仓库 重资产 没有实现盈利 </summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://wojiayouyou.github.io/2021/01/24/%E8%AF%BB%E5%BC%A0%E4%BA%94%E5%B8%B8%E7%BB%8F%E6%B5%8E%E8%A7%A3%E9%87%8A%E6%9C%89%E6%84%9F/"/>
-    <id>https://wojiayouyou.github.io/2021/01/24/%E8%AF%BB%E5%BC%A0%E4%BA%94%E5%B8%B8%E7%BB%8F%E6%B5%8E%E8%A7%A3%E9%87%8A%E6%9C%89%E6%84%9F/</id>
-    <published>2021-01-24T13:06:53.578Z</published>
-    <updated>2021-01-19T12:03:13.615Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;读张五常经济解释有感&quot;&gt;&lt;a href=&quot;#读张五常经济解释有感&quot; class=&quot;headerlink&quot; title=&quot;读张五常经济解释有感&quot;&gt;&lt;/a&gt;读张五常经济解释有感&lt;/h1&gt;&lt;h2 id=&quot;科学的方法&quot;&gt;&lt;a href=&quot;#科学的方法&quot;</summary>
         
       
     
