@@ -453,7 +453,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    6
+                    848
                 </div>
                 
 
@@ -470,7 +470,44 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="云计算的力量"><a href="#云计算的力量" class="headerlink" title="云计算的力量"></a>云计算的力量</h1><p><img src="D:\2\screencapture-mp-weixin-qq-s-5VAb0ffjTIQguDTpzefaGA-2021-05-06-16_38_07.png" alt="screencapture-mp-weixin-qq-s-5VAb0ffjTIQguDTpzefaGA-2021-05-06-16_38_07"></p>
+                <h2 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h2><p> <strong>一起来初探算法</strong></p>
+<p> A preliminary study on the algorithm of Ali </p>
+<p>打开一切科学的钥匙都毫无异议地是问号，我们大部分的伟大发现都应当归功于如何？而生活的智慧大概就在于逢事都问个为什么？</p>
+<p>——巴尔扎克</p>
+<p><strong>一</strong></p>
+<p>什么是Bandit算法：</p>
+<p>我们会遇到很多选择的场景。上哪个大学，学什么专业，去哪家公司，中午吃什么等等。这些事情，都让选择困难症的我们头很大。那么，有算法能够很好地对付这些问题吗？</p>
+<p>当然有！那就是Bandit算法。</p>
+<p>1.假设一个用户对不同类别的内容感兴趣程度不同，那么我们的推荐系统初次见到这个用户时，怎么快速地知道他对每类内容的感兴趣程度？这就是推荐系统的冷启动。</p>
+<p>2.假设我们有若干广告库存，怎么知道该给每个用户展示哪个广告，从而获得最大的点击收益？是每次都挑效果最好那个么？那么新广告如何才有出头之日？</p>
+<p>3.我们的算法工程师又想出了新的模型，有没有比A/B test更快的方法知道它和旧模型相比谁更靠谱？</p>
+<p>4.如果只是推荐已知的用户感兴趣的物品，如何才能科学地冒险给他推荐一些新鲜的物品？</p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_gif/Ba7uPjDVF5y7He3ib12AvGFhZv3Pbia7aGmJUz11MLe9gqeLlG6bRnvOprrHuuvyrNX8qG0ZB9FoicFofDxRcGjzQ/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/MhgXwbT3Y246JbORgkjtrAJX2dHC09iarletBPAooLCR6rib458bGZP6uH6cXLWRmUsKcD0nNCRpfXQKe8JOSxQA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p><img src="https://mmbiz.qpic.cn/sz_mmbiz_gif/Ba7uPjDVF5y7He3ib12AvGFhZv3Pbia7aGmJUz11MLe9gqeLlG6bRnvOprrHuuvyrNX8qG0ZB9FoicFofDxRcGjzQ/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片"></p>
+<p><strong>二</strong></p>
+<p>Bandit算法与推荐系统：</p>
+<p>在推荐系统领域里，有两个比较经典的问题常被人提起，一个是EE问题，另一个是用户冷启动问题。</p>
+<p>什么是EE问题？又叫exploit－explore问题。exploit就是：对用户比较确定的兴趣，当然要利用开采迎合，好比说已经挣到的钱，当然要花；explore就是：光对着用户已知的兴趣使用，用户很快会腻，所以要不断探索用户新的兴趣才行，这就好比虽然有一点钱可以花了，但是还得继续搬砖挣钱，不然花完了就得喝西北风。</p>
+<p>用户冷启动问题，也就是面对新用户时，如何能够通过若干次实验，猜出用户的大致兴趣。</p>
+<p>我想，屏幕前的你已经想到了，推荐系统冷启动可以用Bandit算法来解决一部分。</p>
+<p>这两个问题本质上都是如何选择用户感兴趣的主题进行推荐，比较符合Bandit算法背后的MAB问题。</p>
+<p>比如，用Bandit算法解决冷启动的大致思路如下：用分类或者Topic来表示每个用户兴趣，也就是MAB问题中的臂（Arm），我们可以通过几次试验，来刻画出新用户心目中对每个Topic的感兴趣概率。这里，如果用户对某个Topic感兴趣（提供了显式反馈或隐式反馈），就表示我们得到了收益，如果推给了它不感兴趣的Topic，推荐系统就表示很遗憾（regret）了。如此经历“选择-观察-更新-选择”的循环，理论上是越来越逼近用户真正感兴趣的Topic的，</p>
+<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="图片"></p>
+<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="图片"></p>
+<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="图片"></p>
+<p><strong>三</strong></p>
+<p>常用 bandit 算法：</p>
+<p>Thompson sampling 算法</p>
+<p>UCB 算法</p>
+<p>Epsilon-Greedy 算法</p>
+<p>朴素 bandit 算法</p>
+<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="图片"></p>
+<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="图片"></p>
+<p><img src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt="图片"></p>
+<p>—— E N D ——</p>
+<p>ME</p>
+<p>参考：<a target="_blank" rel="noopener" href="https://blog.csdn.net/dengxing1234/article/details/73188731">https://blog.csdn.net/dengxing1234/article/details/73188731</a></p>
 
                 
             </div>
@@ -497,7 +534,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://wojiayouyou.github.io/2021/05/06/%E4%BA%91%E8%AE%A1%E7%AE%97%E7%9A%84%E5%8A%9B%E9%87%8F/">https://wojiayouyou.github.io/2021/05/06/%E4%BA%91%E8%AE%A1%E7%AE%97%E7%9A%84%E5%8A%9B%E9%87%8F/</a>
+                    <a href="https://wojiayouyou.github.io/2021/05/06/%E7%AE%97%E6%B3%95/">https://wojiayouyou.github.io/2021/05/06/%E7%AE%97%E6%B3%95/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -967,12 +1004,11 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/05/06/%E4%BA%91%E8%AE%A1%E7%AE%97%E7%9A%84%E5%8A%9B%E9%87%8F/">
+                <a href="/2021/05/06/%E4%BA%91%E8%AE%A1%E7%AE%97/">
                     <div class="card-image">
                         
                         
@@ -988,9 +1024,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-06
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-06
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -999,7 +1035,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -1010,7 +1045,7 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/05/06/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/">
+                <a href="/2021/05/06/%E6%88%91%E4%BB%AC%E7%9A%84%E4%BA%A7%E5%93%81/">
                     <div class="card-image">
                         
                         
